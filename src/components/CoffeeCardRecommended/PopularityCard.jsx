@@ -31,8 +31,8 @@ export default function RecomendedCoffeShop() {
   return (
     <div className="container mx-auto p-8 flex flex-col items-center">
       <div className="flex items-center justify-center mb-10 w-full">
-        <h2 className="flex items-center gap-2 text-2xl font-bold text-[#7f088a]">
-          <Star size={28} fill="#7f088a" className="text-[#430249]" /> About Me
+        <h2 className="flex items-center gap-2 text-2xl font-bold text-[#ffffff]">
+          <Star size={28} fill="#7f088a" className="text-[#ffffff]" /> About Me
         </h2>
       </div>
 

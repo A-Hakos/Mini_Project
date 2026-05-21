@@ -6,7 +6,7 @@ import react from "react";
 export default function Footer() {
   return (
     <>
-      <footer className="w-full py-6 border-t border-divider bg-white text-black">
+      <footer className="w-full py-6 border-t border-divider bg-green-500 text-black">
         <div className="container mx-auto px-6">
           <link
             rel="stylesheet"
