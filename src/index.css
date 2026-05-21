@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@import "@heroui/styles";
+
+/* Ambil semua utility class dari HeroUI secara langsung */
+@source "../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}";
+
+/* Hubungkan ke config yang sudah dikosongkan tadi */
+@config "../tailwind.config.js";
+
+@layer utilities {
+  /* Jika kamu ingin membuat efek 'bounce' pada garis underline */
+  .transition-underline {
+    transition: width 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* Menghindari layout 'melompat' saat scrollbar muncul di Windows */
+  scrollbar-gutter: stable;
+}
